@@ -1,3 +1,9 @@
 body {
     font-family: 'Inconsolata';
 }
+
+a {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
