@@ -1,9 +1,19 @@
 body {
     font-family: 'Inconsolata';
+    padding: 20px 60px;
 }
 
 a {
     color: black;
     cursor: pointer;
     text-decoration: none;
+}
+
+.hh{
+    text-align: center;
+    color: black;
+    text-transform: uppercase;   
+}
+.hh:hover{
+    color:rgba(8, 107, 107, 0.582) ;
 }

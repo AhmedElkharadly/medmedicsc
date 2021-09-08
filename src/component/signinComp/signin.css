@@ -1,41 +1,26 @@
-.signin{
-    width: 25vw;
+.sign-in {
+    width: 380px;
     display: flex;
     flex-direction: column;
-    justify-content: center ;
-    margin-bottom: 10px;
-
+    
 }
- .input {
-    min-width: 165px;
-    height: 50px;
-    letter-spacing: 0.5px;
-    line-height: 50px;
-    padding: 0 35px 0 35px;
-    font-size: 15px;
-    background-color: black;
-    color: white;
-    text-transform: uppercase;
-    font-family: 'Open Sans Condensed';
-    font-weight: bolder;
-    border: none;
-    cursor: pointer;
-    margin: 5px;
-    border-radius: 20px;
-
+.sign-in .title {
+	 margin: 10px 0;
+}
+ .sign-in .buttons {
+	 display: flex;
+	 justify-content: space-between;
+}
+.labels{
+    font-weight:650;
+    font-size: 17px;
+    color: indigo;
 }
 
-.form {
-    background: none;
-    background-color:lavender;
-    color: black;
-    font-size: 18px;
-    padding: 10px 10px 10px 5px;
-    display: block;
-    width: 100%;
-    border: none;
-    border-radius: 0%;
+form{
+    margin-top: 20px;
 }
-.input:hover{
-        border: wheat;  
+
+span{
+    color: darkred;
 }

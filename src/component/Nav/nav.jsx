@@ -14,14 +14,14 @@ const Nav = () => (
         <Link className='option1' to='/shop'>
           SHOP
         </Link>
-        <Link className='option1' to='/shop'>
+        <Link className='option1' to='/'>
           CONTACT
         </Link>
         <Link className='option1' to='/sign'>
           SIGN IN
         </Link>
         <Link className='option1' to=''>
-        <FontAwesomeIcon icon={faShoppingBag} spin size='2x' color="red"/>
+        <FontAwesomeIcon icon={faShoppingBag} spin size='2x' color="black"/>
         </Link>
       </div>
     </div>
